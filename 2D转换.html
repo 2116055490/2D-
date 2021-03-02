@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+                border: 1px solid green;
+                background: pink;
+            }
+            .translate{
+                transform: translate(400px,150px);
+            }
+            .rotate{
+                transform: rotate(30deg);
+            }
+            .scale{
+                transform: scale(2,3);
+            }
+            .skew{
+                transform: skew(30deg,20deg);
+            }
+            .matrix{
+                transform: matrix(0.866,0.5,-0.5,0.866,0,0);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+            这是一个盒子
+        </div>
+        <div class="translate">
+            这是一个translate的盒子
+        </div>
+        <div class="rotate">
+            这是一个rotate盒子
+        </div>
+        <div class="scale">
+            这是一个scale盒子
+        </div>
+        <div class="skew">
+            这是一个skew盒子
+        </div>
+        <div class="matrix">
+            这是一个matrix盒子
+        </div>
+    </body>
+</html>
